@@ -8,13 +8,6 @@ Version: 0.1
 Author URI: http://blog.nakachon.com/
 */
 
-function pre_dump($var) {
-	echo '<pre>';
-	var_dump($var);
-	echo '</pre>';
-
-}
-
 class ShowText {
     function __construct() {
       	add_action('admin_menu', array($this, 'add_pages'));
