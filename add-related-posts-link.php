@@ -165,9 +165,13 @@ class ShowText {
 					<tr>
 						<td><?php echo $key; ?></td>
 						<td scope="col" class="check-column"><input name="showtext_options[<?php echo $key; ?>][Delete]" type="checkbox" id="inputDelete" /></td>
+						<!--
 						<td><input name="showtext_options[<?php echo $key; ?>][CATID]" type="text" id="inputCATID" value="<?php  echo $show_CATID[$key]; ?>" /></td>
+						-->
+						<td><input name="showtext_options[<?php echo $key; ?>][CATID]" type="text" id="inputCATID" /></td>
+						
 						<td><textarea style='width: 80%;' rows="8" name="showtext_options[<?php echo $key; ?>][text]" id="inputtext" class="regular-text"></textarea></td>
-						<td><input name="showtext_options[<?php echo $key; ?>][MENUID]" type="text" id="inputMENUID" value="<?php  echo $show_MENUID[$key]; ?>" /></td>
+							<td><input name="showtext_options[<?php echo $key; ?>][MENUID]" type="text" id="inputMENUID" /></td>
 						
 					</tr>
                 	
